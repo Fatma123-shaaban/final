@@ -3,7 +3,7 @@ on:
     branches:
       - master
 jobs:
-  buld:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: "Testing"
@@ -11,3 +11,4 @@ jobs:
       - uses: actions/checkout@v3
       - name: "Testing after"
         run: ls -a
+        
